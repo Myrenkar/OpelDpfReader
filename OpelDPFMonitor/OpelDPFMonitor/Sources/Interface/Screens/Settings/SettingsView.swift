@@ -4,15 +4,17 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Aaaa")) {
-                    Text("Witam")
+                Section() {
+                    NavigationLink(destination: ConnectionSettingsView()) {
+                        Text("settings_connection".localized)
+                    }
                 }
 
-                Section {
-                    Text("Połączenie")
+                Section(header: Text("settings_tutorial".localized)) {
+                    Text("Go go go!")
                 }
             }
-            .navigationBarTitle("Ustawienia", displayMode: .large)
+            .navigationBarTitle(Text("settings_title".localized), displayMode: .large)
         }
     }
 }

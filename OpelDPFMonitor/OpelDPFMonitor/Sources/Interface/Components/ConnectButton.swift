@@ -9,7 +9,7 @@ struct ConnectButton: View {
             Button(action: {
                 self.animateAction()
             }) {
-                Text("Connect")
+                Text("dpf_button_connect".localized)
                 .padding()
                 .background(Color.blue)
                 .foregroundColor(.white)

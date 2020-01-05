@@ -10,7 +10,7 @@ struct ContentView: View {
                 DPFView()
                     .tabItem {
                         Image(systemName: "1.circle")
-                        Text("DPF")
+                        Text("tab_dpf".localized)
                 }.tag(0)
                 SettingsView()
                     .tabItem {
@@ -28,8 +28,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-extension String {
-    var localized: String {
-        return NSLocalizedString(self, comment: "")
-    }
-}

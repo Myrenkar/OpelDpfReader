@@ -3,12 +3,8 @@ import SwiftUI
 struct DPFView: View {
     var body: some View {
         VStack {
-            HStack {
-                RadialView(title: "EGR")
-                RadialView(title: "WTF")
-            }
             RadialView(title: "DPF")
-            Spacer()
+            Divider()
             ConnectButton()
         }
     }

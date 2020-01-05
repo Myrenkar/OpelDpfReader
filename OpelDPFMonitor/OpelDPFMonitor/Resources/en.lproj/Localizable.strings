@@ -1,0 +1,15 @@
+// MARK: - Tab
+
+"tab_dpf" = "DPF";
+"tab_settings" = "Settings";
+
+// MARK: - Settings
+
+"settings_title" = "Settings";
+"settings_connection" = "Connection";
+"settings_tutorial" = "How it works?";
+
+
+// MARK: - DPF
+
+"dpf_button_connect" = "Connect";
