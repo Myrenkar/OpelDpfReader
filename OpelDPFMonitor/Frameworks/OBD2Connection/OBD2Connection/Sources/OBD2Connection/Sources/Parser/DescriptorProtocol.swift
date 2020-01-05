@@ -1,4 +1,4 @@
-/import Foundation
+import Foundation
 
 public protocol DescriptorProtocol {
     var response: Response { get set }

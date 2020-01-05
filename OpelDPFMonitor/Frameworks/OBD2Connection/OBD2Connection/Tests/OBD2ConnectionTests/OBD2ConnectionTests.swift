@@ -3,10 +3,8 @@ import XCTest
 
 final class OBD2ConnectionTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(OBD2Connection().text, "Hello, World!")
+        XCTAssertEqual(OBD2Connection().host, "192.168.0.10")
+        XCTAssertEqual(OBD2Connection().port, 35000)
     }
 
     static var allTests = [

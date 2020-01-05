@@ -1,4 +1,4 @@
-/import Foundation
+import Foundation
 
 public struct Response: Hashable, Equatable {
     var timestamp: Date
