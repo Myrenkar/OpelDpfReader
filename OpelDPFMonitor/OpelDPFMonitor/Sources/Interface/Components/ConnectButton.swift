@@ -7,7 +7,7 @@ struct ConnectButton: View {
     var body: some View {
         ZStack {
             Button(action: {
-                self.animateAction()
+
             }) {
                 Text("dpf_button_connect".localized)
                 .padding()
